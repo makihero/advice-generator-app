@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/output.css">
+  <title>Frontend Mentor | Advice generator app</title>
+
+</head>
+<body class="bg-dark-blue text-light-cyan text-[30px] font-manrope">
+
+  <article class="text-center bg-dark-grayish-blue w-[340px] rounded-[10px] m-auto p-[40px_30px_55px_30px] my-20 relative md:w-[540px]">
+    <h2 class="text-neon-green mb-4 uppercase text-sm tracking-[4px]">Advice #<span id="advice" ></span></h2>
+    <p id="advice-text" class="text-[22px] leading-[30px] mb-6 font-bold"></p>
+
+    <picture>
+
+      <source media="(min-width: 640px)" srcset="../images/pattern-divider-desktop.svg">
+      <source media="(max-width: 640px)" srcset="../images/pattern-divider-mobile.svg">
+      <img class="m-auto" src="" alt="">
+
+    </picture>
+
+    <div id="dice" class="bg-neon-green w-[52px] h-[52px] rounded-full absolute bottom-[-26px] left-1/2 transform -translate-x-1/2 grid place-items-center cursor-pointer hover:drop-shadow-[0_0_30px_hsl(150,100%,66%)]">
+      <img class="w-[20px]" src="../images/icon-dice.svg" alt="">
+    </div>
+  </article>
+
+  <script src="./main.js"></script>
+  
+</body>
+</html>
